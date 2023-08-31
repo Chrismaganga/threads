@@ -1,10 +1,11 @@
-import { UserButton } from "@clerk/nextjs";
- 
-export default function Home() {
+import React from 'react'
+
+type Props = {}
+
+const page = (props: Props) => {
   return (
-    <div>
-      <h1>Home</h1>
-      <UserButton afterSignOutUrl="/onboading"/>
-    </div>
+    <div>page</div>
   )
 }
+
+export default page
